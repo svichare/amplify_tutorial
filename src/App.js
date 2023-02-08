@@ -82,9 +82,17 @@ const App = ({ signOut }) => {
             required
           />
           <TextField
+            name="fake_name"
+            placeholder="Note Fake Name"
+            label="Note Fake Name"
+            labelHidden
+            variation="quiet"
+            required
+          />
+          <TextField
             name="description"
             placeholder="Note Description"
-            label="Note Description"
+            label="Note Description changed"
             labelHidden
             variation="quiet"
             required
